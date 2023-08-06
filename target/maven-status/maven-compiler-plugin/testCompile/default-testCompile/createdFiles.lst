@@ -1,8 +1,0 @@
-ets\StepDefinitions\GetNoteSteps.class
-ets\Resources\ProjectConfig.class
-ets\RestAPIBase\RestHttpMethods.class
-ets\StepDefinitions\DeleteNoteSteps.class
-ets\StepDefinitions\UpdateNoteSteps.class
-ets\BaseLibrary\Utils.class
-ets\StepDefinitions\CreateNoteSteps.class
-ets\Runner\CukeRunner.class
