@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Delete Notes
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.146 s <<< FAILURE! - in Delete Notes
+Delete a note(Delete Notes)  Time elapsed: 7.146 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path status doesn't match.
+Expected: <200>
+  Actual: <404>
+
+

@@ -1,6 +1,8 @@
 D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\Resources\ProjectConfig.java
 D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\StepDefinitions\CreateNoteSteps.java
+D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\StepDefinitions\DeleteNoteSteps.java
+D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\Runner\CukeRunner.java
 D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\BaseLibrary\Utils.java
-D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\Runner\CukeRunner.java
+D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\StepDefinitions\GetNoteSteps.java
 D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\RestAPIBase\RestHttpMethods.java
 D:\Batches\API\July 2023\RestAssuredCucumberFramework\src\test\java\ets\StepDefinitions\UpdateNoteSteps.java

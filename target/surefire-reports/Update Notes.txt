@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Create Notes
+Test set: Update Notes
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.822 s - in Create Notes
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.506 s - in Update Notes
