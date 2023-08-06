@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="16.171">
+<testcase classname="Create Notes" name="Create a new note" time="7.121">
+<system-out><![CDATA[Given user have access of application.......................................passed
+When user wants to create a note "/notes"...................................passed
+Then validate create note status code 200...................................passed
+And validate create note success message "Note successfully created"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Create Notes" name="Create a new note 2" time="1.604">
+<system-out><![CDATA[Given user have access of application.......................................passed
+When user wants to create a note "/notes"...................................passed
+Then validate create note status code 200...................................passed
+And validate create note success message "Note successfully created"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Create Notes" name="Create a new note 3" time="1.942">
+<system-out><![CDATA[Given user have access of application.......................................passed
+When user wants to create a note "/notes"...................................passed
+Then validate create note status code 200...................................passed
+And validate create note success message "Note successfully created"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete Notes" name="Delete a note" time="1.886">
+<failure message="1 expectation failed.&#10;JSON path status doesn't match.&#10;Expected: &lt;200&gt;&#10;  Actual: &lt;404&gt;&#10;" type="java.lang.AssertionError"><![CDATA[Given user have access of application.......................................passed
+When user wants to delete a note "/notes"...................................passed
+Then validate delete note status code 200...................................failed
+And validate delete note success message "Note successfully deleted"........skipped
+
+StackTrace:
+java.lang.AssertionError: 1 expectation failed.
+JSON path status doesn't match.
+Expected: <200>
+  Actual: <404>
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at ets.RestAPIBase.RestHttpMethods.validateResponse(RestHttpMethods.java:87)
+	at ets.StepDefinitions.DeleteNoteSteps.validate_delete_note_status_code(DeleteNoteSteps.java:34)
+	at ✽.validate delete note status code 200(file:///D:/Batches/API/July%202023/RestAssuredCucumberFramework/./src/test/java/ets/Features/DeleteNote.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Get Notes" name="Get all notes" time="1.673">
+<system-out><![CDATA[Given user have access of application.......................................passed
+When user wants to get all notes "/notes"...................................passed
+Then validate get note status code 200......................................passed
+And validate get note success message "Notes successfully retrieved"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Update Notes" name="Update a note" time="1.549">
+<system-out><![CDATA[Given user have access of application.......................................passed
+When user wants to update a note "/notes"...................................passed
+Then validate update note status code 200...................................passed
+And validate update note success message "Note successfully Updated"........passed
+]]></system-out>
+</testcase>
+</testsuite>
